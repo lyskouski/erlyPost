@@ -1,0 +1,63 @@
+boddy {
+    font-size: 16px;
+}
+
+#auth {
+    margin: 8px auto;
+    width: 480px;
+    border: 1px solid rgb(100,100,100);
+    border-radius: 8px;
+    box-shadow: 1px 1px 0 rgb(200,200,200), -1px -1px 0 rgb(200,200,200), -1px 1px 0 rgb(200,200,200), -1px 1px 0 rgb(200,200,200), inset 1px 1px 0 white,  inset -1px -1px 0 white, inset 2px 2px 0 rgba(122,122,122,0.2), inset -2px -2px 0 rgba(122,122,122,0.2);
+    color: black;
+}
+
+#auth div {
+    padding: 8px 6px 12px;
+    clear: left;
+}
+
+#auth ul {
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #cccccc;
+    background-image: repeating-linear-gradient(-45deg, rgba(188,188,188, 0.1), rgba(177,177,177, 0.1) 1px, rgba(144,144,144, 0.1) 1px, rgba(144,144,144, 0.1) 2px);
+    border-radius: 6px 6px 0 0;
+    border-bottom: 1px solid rgb(100,100,100);
+    box-shadow: 0 1px 0 white, 0 2px 0 rgba(122,122,122,0.2);
+}
+
+#auth ul li {
+    display: block;
+    float: left;
+    border: 1px solid rgb(100,100,100);
+    box-shadow: 0 -2px 0 rgba(144,144,144,0.1), 2px 0 0 rgba(144,144,144,0.1), 2px -2px 0 rgba(144,144,144,0.1), -2px -2px 0 rgba(144,144,144,0.1), inset 1px 1px 0 rgba(222,222,222,1);
+    border-radius: 6px 6px 0 0;
+    margin: 4px 0 -1px 4px;
+    padding: 3px 6px 2px;
+    background: #cccccc;
+    border-bottom: 0;
+    cursor: pointer;
+}
+
+#auth ul li:hover {
+    background: rgba(122,122,122,0.1);
+}
+
+#auth ul li.active {
+    color: rgba(122,122,122,1);
+    background: white;
+    padding: 2px 6px 4px;
+    box-shadow: 0 4px 0 white, 0 -2px 0 rgba(144,144,144,0.1), 2px 0 0 rgba(144,144,144,0.1), 2px -2px 0 rgba(144,144,144,0.1), -2px -2px 0 rgba(144,144,144,0.1), inset -1px 1px 0 white, inset 1px 1px 0 white, inset 2px 2px 0 rgba(122,122,122,0.2), inset -2px 2px 0 rgba(122,122,122,0.2);
+}
+
+.hidden {
+    display: none;
+}
+
+.loading {
+
+}
